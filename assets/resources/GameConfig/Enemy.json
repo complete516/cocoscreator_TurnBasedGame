@@ -1,0 +1,54 @@
+{
+    "2000001": {
+        "Id": "2000001",
+        "Hp": 100,
+        "Mp": 100,
+        "Name": "曦曦的豹皮",
+        "attack": 10,
+        "defense": 10,
+        "speed": 10,
+        "path": "Spine/Enemy/bianfujing/bianfujing",
+        "attackGrow": 1.2,
+        "defenseGrow": 1.2,
+        "speedGrow": 1.2,
+        "battlePrefix": "000010",
+        "scale": 1,
+        "attackTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "injuredTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "skillTime": {
+            "actiondelay": 6.94
+        }
+    },
+    "2000002": {
+        "Id": "2000002",
+        "Hp": 100,
+        "Mp": 100,
+        "Name": "曦曦的豹皮",
+        "attack": 10,
+        "defense": 10,
+        "speed": 10,
+        "path": "Spine/Enemy/changqiangbing/changqiangbing",
+        "attackGrow": 1.2,
+        "defenseGrow": 1.2,
+        "speedGrow": 1.2,
+        "battlePrefix": "000010",
+        "scale": 1,
+        "attackTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "injuredTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "skillTime": {
+            "actiondelay": 6.94
+        }
+    }
+}

@@ -1,0 +1,181 @@
+
+bingyao.png
+size: 997,254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00
+  rotate: false
+  xy: 519, 104
+  size: 206, 150
+  orig: 250, 200
+  offset: 22, 25
+  index: -1
+01
+  rotate: false
+  xy: 309, 95
+  size: 146, 159
+  orig: 250, 200
+  offset: 79, 20
+  index: -1
+02
+  rotate: false
+  xy: 729, 105
+  size: 75, 149
+  orig: 250, 200
+  offset: 151, 13
+  index: -1
+03
+  rotate: false
+  xy: 459, 100
+  size: 56, 154
+  orig: 250, 200
+  offset: 169, 3
+  index: -1
+Body
+  rotate: false
+  xy: 184, 79
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+Cloak
+  rotate: false
+  xy: 204, 0
+  size: 94, 75
+  orig: 94, 75
+  offset: 0, 0
+  index: -1
+L-Arm
+  rotate: false
+  xy: 902, 50
+  size: 41, 30
+  orig: 41, 30
+  offset: 0, 0
+  index: -1
+Pendant
+  rotate: false
+  xy: 302, 20
+  size: 108, 55
+  orig: 108, 55
+  offset: 0, 0
+  index: -1
+R-Arm
+  rotate: false
+  xy: 902, 10
+  size: 25, 36
+  orig: 25, 36
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 808, 124
+  size: 26, 130
+  orig: 26, 130
+  offset: 0, 0
+  index: -1
+Weapon-Pendant
+  rotate: false
+  xy: 838, 149
+  size: 22, 47
+  orig: 22, 47
+  offset: 0, 0
+  index: -1
+beiji
+  rotate: false
+  xy: 902, 84
+  size: 44, 32
+  orig: 44, 32
+  offset: 0, 0
+  index: -1
+bingkuai
+  rotate: false
+  xy: 0, 48
+  size: 180, 206
+  orig: 180, 206
+  offset: 0, 0
+  index: -1
+bingkuai01
+  rotate: false
+  xy: 838, 200
+  size: 153, 54
+  orig: 153, 54
+  offset: 0, 0
+  index: -1
+bingkuai02
+  rotate: false
+  xy: 505, 0
+  size: 125, 96
+  orig: 125, 96
+  offset: 0, 0
+  index: -1
+bingkuai03
+  rotate: false
+  xy: 809, 8
+  size: 89, 112
+  orig: 89, 112
+  offset: 0, 0
+  index: -1
+bingkuai04
+  rotate: false
+  xy: 634, 4
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+bingkuai05
+  rotate: false
+  xy: 734, 9
+  size: 71, 92
+  orig: 71, 92
+  offset: 0, 0
+  index: -1
+bingkuai06
+  rotate: false
+  xy: 414, 6
+  size: 87, 85
+  orig: 87, 85
+  offset: 0, 0
+  index: -1
+dibing
+  rotate: false
+  xy: 864, 150
+  size: 128, 46
+  orig: 128, 46
+  offset: 0, 0
+  index: -1
+fennu
+  rotate: false
+  xy: 154, 7
+  size: 46, 37
+  orig: 46, 37
+  offset: 0, 0
+  index: -1
+putong
+  rotate: false
+  xy: 950, 78
+  size: 44, 32
+  orig: 44, 32
+  offset: 0, 0
+  index: -1
+qingzhu
+  rotate: false
+  xy: 952, 114
+  size: 45, 32
+  orig: 45, 32
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 0, 3
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1
+siwang
+  rotate: false
+  xy: 902, 120
+  size: 46, 26
+  orig: 46, 26
+  offset: 0, 0
+  index: -1

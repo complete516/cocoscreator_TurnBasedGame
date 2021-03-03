@@ -1,0 +1,223 @@
+
+bianfujing.png
+size: 385,261
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B-Neck
+  rotate: false
+  xy: 89, 24
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 276, 147
+  size: 65, 69
+  orig: 65, 69
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 345, 127
+  size: 39, 28
+  orig: 39, 28
+  offset: 0, 0
+  index: -1
+Eye-beiji
+  rotate: false
+  xy: 57, 0
+  size: 37, 20
+  orig: 37, 20
+  offset: 0, 0
+  index: -1
+Eye-fennu
+  rotate: false
+  xy: 337, 97
+  size: 37, 26
+  orig: 37, 26
+  offset: 0, 0
+  index: -1
+Eye-shengli
+  rotate: false
+  xy: 345, 189
+  size: 40, 30
+  orig: 40, 30
+  offset: 0, 0
+  index: -1
+Eye-siwang
+  rotate: false
+  xy: 345, 159
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+F-Neck
+  rotate: false
+  xy: 0, 11
+  size: 53, 47
+  orig: 53, 47
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 176, 150
+  size: 96, 66
+  orig: 96, 66
+  offset: 0, 0
+  index: -1
+L-Ear
+  rotate: false
+  xy: 337, 65
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+L-Foot
+  rotate: false
+  xy: 373, 240
+  size: 12, 21
+  orig: 12, 21
+  offset: 0, 0
+  index: -1
+L-Forearm
+  rotate: false
+  xy: 222, 38
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+L-Hand
+  rotate: false
+  xy: 198, 32
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+L-Lowerleg
+  rotate: false
+  xy: 362, 14
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+L-Thigh
+  rotate: false
+  xy: 337, 35
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+L-Upperarm
+  rotate: false
+  xy: 365, 32
+  size: 20, 29
+  orig: 20, 29
+  offset: 0, 0
+  index: -1
+L-chibanbg01
+  rotate: false
+  xy: 91, 50
+  size: 73, 121
+  orig: 73, 121
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 330, 223
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+R-Ear
+  rotate: false
+  xy: 57, 24
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+R-Foot
+  rotate: false
+  xy: 151, 1
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+R-Forearm
+  rotate: false
+  xy: 366, 68
+  size: 16, 25
+  orig: 16, 25
+  offset: 0, 0
+  index: -1
+R-Hand
+  rotate: false
+  xy: 129, 0
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+R-Lowerleg
+  rotate: false
+  xy: 337, 17
+  size: 21, 14
+  orig: 21, 14
+  offset: 0, 0
+  index: -1
+R-Thigh
+  rotate: false
+  xy: 168, 29
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+R-Upperarm
+  rotate: false
+  xy: 125, 25
+  size: 38, 21
+  orig: 38, 21
+  offset: 0, 0
+  index: -1
+R-chibang01
+  rotate: false
+  xy: 261, 22
+  size: 72, 121
+  orig: 72, 121
+  offset: 0, 0
+  index: -1
+SE02
+  rotate: false
+  xy: 168, 58
+  size: 89, 88
+  orig: 89, 88
+  offset: 0, 0
+  index: -1
+SE03
+  rotate: false
+  xy: 0, 62
+  size: 87, 109
+  orig: 87, 109
+  offset: 0, 0
+  index: -1
+Weapon-Ribbon
+  rotate: false
+  xy: 98, 0
+  size: 27, 20
+  orig: 27, 20
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 176, 220
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 0, 175
+  size: 172, 86
+  orig: 172, 86
+  offset: 0, 0
+  index: -1

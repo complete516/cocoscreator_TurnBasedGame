@@ -1,0 +1,398 @@
+
+erlangshen.png
+size: 890,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BBU-Leg
+  rotate: false
+  xy: 328, 55
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 743, 159
+  size: 47, 37
+  orig: 47, 37
+  offset: 0, 0
+  index: -1
+D-shadow
+  rotate: false
+  xy: 740, 49
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 740, 49
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1
+Dog-BBL-Leg
+  rotate: false
+  xy: 804, 96
+  size: 14, 21
+  orig: 14, 21
+  offset: 0, 0
+  index: -1
+Dog-BFL-Leg
+  rotate: false
+  xy: 717, 0
+  size: 13, 23
+  orig: 13, 23
+  offset: 0, 0
+  index: -1
+Dog-BFU-Leg
+  rotate: false
+  xy: 691, 0
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+Dog-Body
+  rotate: false
+  xy: 0, 0
+  size: 55, 36
+  orig: 55, 36
+  offset: 0, 0
+  index: -1
+Dog-FBL-Leg
+  rotate: false
+  xy: 388, 56
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+Dog-FBU-Leg
+  rotate: false
+  xy: 844, 104
+  size: 12, 20
+  orig: 12, 20
+  offset: 0, 0
+  index: -1
+Dog-FFB-Leg
+  rotate: false
+  xy: 348, 55
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+Dog-FFU-Leg
+  rotate: false
+  xy: 822, 97
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+Dog-Head
+  rotate: false
+  xy: 740, 1
+  size: 40, 44
+  orig: 40, 44
+  offset: 0, 0
+  index: -1
+Dog-Mouth
+  rotate: false
+  xy: 299, 55
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+Dog-weiba
+  rotate: false
+  xy: 854, 130
+  size: 21, 31
+  orig: 21, 31
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 472, 58
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
+Eye-beiji
+  rotate: false
+  xy: 770, 121
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+Eye-fennu
+  rotate: false
+  xy: 815, 128
+  size: 35, 31
+  orig: 35, 31
+  offset: 0, 0
+  index: -1
+Eye-shengli
+  rotate: false
+  xy: 102, 0
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+Eye-siwang
+  rotate: false
+  xy: 59, 0
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+F-Pendant
+  rotate: false
+  xy: 143, 0
+  size: 24, 36
+  orig: 24, 36
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 667, 94
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+Head-Pendant
+  rotate: false
+  xy: 743, 94
+  size: 34, 21
+  orig: 34, 21
+  offset: 0, 0
+  index: -1
+L-Fair
+  rotate: false
+  xy: 784, 2
+  size: 18, 43
+  orig: 18, 43
+  offset: 0, 0
+  index: -1
+L-Forearm
+  rotate: false
+  xy: 781, 95
+  size: 19, 22
+  orig: 19, 22
+  offset: 0, 0
+  index: -1
+L-Hand
+  rotate: false
+  xy: 479, 2
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+L-LowerLeg
+  rotate: false
+  xy: 152, 40
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+L-Pendant
+  rotate: false
+  xy: 794, 163
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+L-Ribbon
+  rotate: false
+  xy: 438, 6
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+L-Thigh
+  rotate: false
+  xy: 435, 58
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+L-UpperArm
+  rotate: false
+  xy: 832, 165
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+L-jianjia
+  rotate: false
+  xy: 655, 23
+  size: 29, 65
+  orig: 29, 65
+  offset: 0, 0
+  index: -1
+LB-Foot
+  rotate: false
+  xy: 655, 5
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+LF-Foot
+  rotate: false
+  xy: 865, 2
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+M-Ribbon
+  rotate: false
+  xy: 865, 18
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 879, 189
+  size: 11, 7
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+Mouth-beiji
+  rotate: false
+  xy: 858, 173
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+Mouth-fennu
+  rotate: false
+  xy: 858, 186
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+Mouth-shengli
+  rotate: false
+  xy: 407, 57
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+Mouth-siwang
+  rotate: false
+  xy: 880, 3
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+Pelvis
+  rotate: false
+  xy: 367, 2
+  size: 46, 50
+  orig: 46, 50
+  offset: 0, 0
+  index: -1
+R-Fair
+  rotate: false
+  xy: 417, 4
+  size: 17, 49
+  orig: 17, 49
+  offset: 0, 0
+  index: -1
+R-Forearm
+  rotate: false
+  xy: 743, 119
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+R-Hand
+  rotate: false
+  xy: 366, 56
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+R-LowerLeg
+  rotate: false
+  xy: 674, 7
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+R-Pendant
+  rotate: false
+  xy: 806, 8
+  size: 55, 37
+  orig: 55, 37
+  offset: 0, 0
+  index: -1
+R-UpperArm
+  rotate: false
+  xy: 479, 21
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+R-jianjia
+  rotate: false
+  xy: 688, 27
+  size: 48, 63
+  orig: 48, 63
+  offset: 0, 0
+  index: -1
+RB-Foot
+  rotate: false
+  xy: 454, 58
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+RF-Foot
+  rotate: false
+  xy: 498, 4
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+SE-daoguang01
+  rotate: false
+  xy: 171, 0
+  size: 192, 51
+  orig: 192, 51
+  offset: 0, 0
+  index: -1
+SE-daoguang02
+  rotate: false
+  xy: 299, 78
+  size: 164, 118
+  orig: 164, 118
+  offset: 0, 0
+  index: -1
+SE-daoguang03
+  rotate: false
+  xy: 0, 40
+  size: 148, 156
+  orig: 148, 156
+  offset: 0, 0
+  index: -1
+SE-daoguang04
+  rotate: false
+  xy: 152, 55
+  size: 143, 141
+  orig: 143, 141
+  offset: 0, 0
+  index: -1
+U-Ribbon
+  rotate: false
+  xy: 513, 3
+  size: 138, 85
+  orig: 138, 85
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 467, 92
+  size: 196, 104
+  orig: 196, 104
+  offset: 0, 0
+  index: -1

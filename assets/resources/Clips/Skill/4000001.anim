@@ -1,0 +1,88 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "4000001",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 1,
+    "events": [],
+    "_duration": 0.9333333333333333,
+    "_keys": [
+      [
+        0,
+        0.08333333333333333,
+        0.16666666666666666,
+        0.25,
+        0.3333333333333333,
+        0.4166666666666667,
+        0.5,
+        0.5833333333333334,
+        0.6666666666666666,
+        0.75,
+        0.8333333333333334,
+        0.9166666666666666
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "spriteFrame"
+        ],
+        "data": {
+          "keys": 0,
+          "values": [
+            {
+              "__uuid__": "8966707d-6355-4a75-aef1-92b1d20cbfcd@f9941"
+            },
+            {
+              "__uuid__": "2dd23861-34a9-45f9-a8fb-23b0be11c17b@f9941"
+            },
+            {
+              "__uuid__": "5f032b27-5cc3-4912-8e40-bf804d556a17@f9941"
+            },
+            {
+              "__uuid__": "eff1896d-a79d-49c4-bbd4-c3c9127ba974@f9941"
+            },
+            {
+              "__uuid__": "ad63c523-aecd-4f39-a0ff-0a8a38acea3a@f9941"
+            },
+            {
+              "__uuid__": "c0f28479-f34b-44bb-a54b-7e850f1d039d@f9941"
+            },
+            {
+              "__uuid__": "43ae76bc-5b3d-400d-ba0b-0ced362b5fc6@f9941"
+            },
+            {
+              "__uuid__": "33197e17-db2f-40e5-84fe-52c0d3c564d9@f9941"
+            },
+            {
+              "__uuid__": "5c33a156-fa9d-4ce7-a1ae-8ee1e34485de@f9941"
+            },
+            {
+              "__uuid__": "009181f3-e8b7-4f28-9813-63eda4488b3d@f9941"
+            },
+            {
+              "__uuid__": "ce18dfab-3050-46a0-a48e-c49cee86c139@f9941"
+            },
+            {
+              "__uuid__": "0bdfe1c6-e1cb-4007-9ee7-99cd4abdab59@f9941"
+            }
+          ],
+          "easingMethods": {}
+        }
+      }
+    ],
+    "_commonTargets": [],
+    "_hash": 1706211433
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  }
+]

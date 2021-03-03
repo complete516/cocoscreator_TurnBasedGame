@@ -1,0 +1,244 @@
+
+ganning.png
+size: 749,117
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SE-daoguang
+  rotate: false
+  xy: 447, 38
+  size: 100, 79
+  orig: 100, 79
+  offset: 0, 0
+  index: -1
+_0001_yezi
+  rotate: false
+  xy: 607, 62
+  size: 50, 20
+  orig: 50, 20
+  offset: 0, 0
+  index: -1
+_0002_Eye-fennu
+  rotate: false
+  xy: 371, 5
+  size: 48, 19
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+_0003_Mouth-fennu
+  rotate: false
+  xy: 101, 1
+  size: 31, 14
+  orig: 31, 14
+  offset: 0, 0
+  index: -1
+_0004_Eye-beiji
+  rotate: false
+  xy: 666, 87
+  size: 54, 30
+  orig: 54, 30
+  offset: 0, 0
+  index: -1
+_0005_Mouth-beiji
+  rotate: false
+  xy: 136, 1
+  size: 31, 14
+  orig: 31, 14
+  offset: 0, 0
+  index: -1
+_0006_Eye-shengli
+  rotate: false
+  xy: 551, 39
+  size: 51, 22
+  orig: 51, 22
+  offset: 0, 0
+  index: -1
+_0007_Mouth-shengli
+  rotate: false
+  xy: 586, 0
+  size: 26, 9
+  orig: 26, 9
+  offset: 0, 0
+  index: -1
+_0008_Eye-siwang
+  rotate: false
+  xy: 53, 3
+  size: 44, 12
+  orig: 44, 12
+  offset: 0, 0
+  index: -1
+_0009_Mouth-siwang
+  rotate: false
+  xy: 171, 0
+  size: 31, 10
+  orig: 31, 10
+  offset: 0, 0
+  index: -1
+_0010_Eye
+  rotate: false
+  xy: 0, 0
+  size: 49, 15
+  orig: 49, 15
+  offset: 0, 0
+  index: -1
+_0011_Mouth
+  rotate: false
+  xy: 425, 36
+  size: 18, 8
+  orig: 18, 8
+  offset: 0, 0
+  index: -1
+_0012_R-Fair
+  rotate: false
+  xy: 708, 46
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+_0013_L-Fair
+  rotate: false
+  xy: 724, 95
+  size: 25, 22
+  orig: 25, 22
+  offset: 0, 0
+  index: -1
+_0014_Head
+  rotate: false
+  xy: 182, 14
+  size: 107, 103
+  orig: 107, 103
+  offset: 0, 0
+  index: -1
+_0015_R-Forearm
+  rotate: false
+  xy: 498, 2
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+_0016_R-Hand
+  rotate: false
+  xy: 616, 4
+  size: 23, 20
+  orig: 23, 20
+  offset: 0, 0
+  index: -1
+_0017_R-UpperArm
+  rotate: false
+  xy: 425, 0
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+_0018_Pelvis
+  rotate: false
+  xy: 607, 86
+  size: 55, 31
+  orig: 55, 31
+  offset: 0, 0
+  index: -1
+_0019_RF-Ribbon
+  rotate: false
+  xy: 666, 45
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+_0020_RB-Ribbon
+  rotate: false
+  xy: 606, 28
+  size: 50, 30
+  orig: 50, 30
+  offset: 0, 0
+  index: -1
+_0021_Body
+  rotate: false
+  xy: 371, 28
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+_0022_L-Forearm
+  rotate: false
+  xy: 531, 4
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+_0023_L-Hand
+  rotate: false
+  xy: 719, 17
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+_0024_L-UpperArm
+  rotate: false
+  xy: 459, 5
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+_0025_F-Ribbon
+  rotate: false
+  xy: 660, 0
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+_0026_L-Thigh
+  rotate: false
+  xy: 693, 13
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+_0027_L-Foot
+  rotate: false
+  xy: 586, 13
+  size: 16, 22
+  orig: 16, 22
+  offset: 0, 0
+  index: -1
+_0028_R-Thigh
+  rotate: false
+  xy: 555, 6
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+_0029_R-Foot
+  rotate: false
+  xy: 425, 48
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+_0030_B-Fair
+  rotate: false
+  xy: 293, 14
+  size: 74, 58
+  orig: 74, 58
+  offset: 0, 0
+  index: -1
+_0031_Weapon
+  rotate: false
+  xy: 0, 19
+  size: 178, 98
+  orig: 178, 98
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 293, 76
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1
+yumao
+  rotate: false
+  xy: 551, 65
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1

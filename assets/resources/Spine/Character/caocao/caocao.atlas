@@ -1,0 +1,223 @@
+
+caocao.png
+size: 560,201
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 361, 77
+  size: 100, 79
+  orig: 100, 79
+  offset: 0, 0
+  index: -1
+Cloak
+  rotate: false
+  xy: 190, 122
+  size: 167, 79
+  orig: 167, 79
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 72, 37
+  size: 58, 38
+  orig: 58, 38
+  offset: 0, 0
+  index: -1
+Eye-beiji
+  rotate: false
+  xy: 465, 95
+  size: 62, 41
+  orig: 62, 41
+  offset: 0, 0
+  index: -1
+Eye-fennu
+  rotate: false
+  xy: 465, 52
+  size: 59, 39
+  orig: 59, 39
+  offset: 0, 0
+  index: -1
+Eye-shengli
+  rotate: false
+  xy: 250, 85
+  size: 59, 33
+  orig: 59, 33
+  offset: 0, 0
+  index: -1
+Eye-siwang
+  rotate: false
+  xy: 250, 49
+  size: 57, 32
+  orig: 57, 32
+  offset: 0, 0
+  index: -1
+FD-Armor
+  rotate: false
+  xy: 392, 38
+  size: 54, 35
+  orig: 54, 35
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 72, 79
+  size: 114, 122
+  orig: 114, 122
+  offset: 0, 0
+  index: -1
+L-Forearm
+  rotate: false
+  xy: 528, 27
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+L-Hand
+  rotate: false
+  xy: 218, 2
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+L-Leg
+  rotate: false
+  xy: 450, 12
+  size: 25, 36
+  orig: 25, 36
+  offset: 0, 0
+  index: -1
+L-Upperarm
+  rotate: false
+  xy: 134, 0
+  size: 35, 42
+  orig: 35, 42
+  offset: 0, 0
+  index: -1
+LD-Armor
+  rotate: false
+  xy: 359, 10
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+LU-Armor01
+  rotate: false
+  xy: 351, 37
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+LU-Armor02
+  rotate: false
+  xy: 173, 1
+  size: 41, 29
+  orig: 41, 29
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 309, 7
+  size: 46, 21
+  orig: 46, 21
+  offset: 0, 0
+  index: -1
+Mouth-beiji
+  rotate: false
+  xy: 392, 15
+  size: 49, 19
+  orig: 49, 19
+  offset: 0, 0
+  index: -1
+Mouth-fennu
+  rotate: false
+  xy: 189, 34
+  size: 56, 33
+  orig: 56, 33
+  offset: 0, 0
+  index: -1
+Mouth-shengli
+  rotate: false
+  xy: 249, 15
+  size: 56, 30
+  orig: 56, 30
+  offset: 0, 0
+  index: -1
+Mouth-siwang
+  rotate: false
+  xy: 479, 3
+  size: 46, 20
+  orig: 46, 20
+  offset: 0, 0
+  index: -1
+R-Forearm
+  rotate: false
+  xy: 311, 32
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+R-Hand
+  rotate: false
+  xy: 528, 62
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+R-Leg
+  rotate: false
+  xy: 531, 99
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+R-Upperarm
+  rotate: false
+  xy: 313, 71
+  size: 34, 47
+  orig: 34, 47
+  offset: 0, 0
+  index: -1
+RD-Armor
+  rotate: false
+  xy: 134, 46
+  size: 51, 29
+  orig: 51, 29
+  offset: 0, 0
+  index: -1
+RU-Armor01
+  rotate: false
+  xy: 190, 71
+  size: 56, 47
+  orig: 56, 47
+  offset: 0, 0
+  index: -1
+RU-Armor02
+  rotate: false
+  xy: 72, 1
+  size: 56, 32
+  orig: 56, 32
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 0, 17
+  size: 68, 184
+  orig: 68, 184
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 361, 160
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1
+wangguan
+  rotate: false
+  xy: 515, 140
+  size: 44, 61
+  orig: 44, 61
+  offset: 0, 0
+  index: -1

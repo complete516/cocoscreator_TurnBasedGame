@@ -1,0 +1,16 @@
+{
+    "4000001": {
+        "Id": "4000001",
+        "Path": "Prefabs/Skill/4000001",
+        "BaseHarm": 10,
+        "DebuffRate": 0.2,
+        "BuffRate": 0
+    },
+    "4000002": {
+        "Id": "4000002",
+        "Path": "Prefabs/Skill/4000002",
+        "BaseHarm": 10,
+        "DebuffRate": 0.2,
+        "BuffRate": 0
+    }
+}

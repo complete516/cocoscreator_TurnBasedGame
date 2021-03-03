@@ -1,0 +1,258 @@
+
+chiguotianwang.png
+size: 559,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 362, 74
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: -1
+Cloak
+  rotate: false
+  xy: 94, 104
+  size: 143, 92
+  orig: 143, 92
+  offset: 0, 0
+  index: -1
+DM-Armor
+  rotate: false
+  xy: 0, 0
+  size: 31, 38
+  orig: 31, 38
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 325, 17
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+Eye-attack
+  rotate: false
+  xy: 467, 27
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Eye-celebrate
+  rotate: false
+  xy: 419, 19
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+Eye-death
+  rotate: false
+  xy: 445, 27
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+Eye-injured
+  rotate: false
+  xy: 302, 18
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+F-Fair
+  rotate: false
+  xy: 94, 57
+  size: 70, 43
+  orig: 70, 43
+  offset: 0, 0
+  index: -1
+F-toushi
+  rotate: false
+  xy: 498, 100
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 241, 85
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+L-Fair
+  rotate: false
+  xy: 531, 32
+  size: 28, 64
+  orig: 28, 64
+  offset: 0, 0
+  index: -1
+L-Forearm
+  rotate: false
+  xy: 168, 64
+  size: 55, 36
+  orig: 55, 36
+  offset: 0, 0
+  index: -1
+L-Hand
+  rotate: false
+  xy: 391, 44
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+L-Lowerleg
+  rotate: false
+  xy: 224, 7
+  size: 38, 31
+  orig: 38, 31
+  offset: 0, 0
+  index: -1
+L-Thgih
+  rotate: false
+  xy: 516, 154
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+L-Upperarm
+  rotate: false
+  xy: 147, 10
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+L-toushi
+  rotate: false
+  xy: 498, 0
+  size: 29, 96
+  orig: 29, 96
+  offset: 0, 0
+  index: -1
+LU-Armor
+  rotate: false
+  xy: 35, 3
+  size: 51, 35
+  orig: 51, 35
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 391, 30
+  size: 24, 10
+  orig: 24, 10
+  offset: 0, 0
+  index: -1
+Mouth-attack
+  rotate: false
+  xy: 227, 85
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+Mouth-celebrate
+  rotate: false
+  xy: 109, 4
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+Mouth-death
+  rotate: false
+  xy: 425, 58
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+Mouth-injured
+  rotate: false
+  xy: 425, 42
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+R-Fair
+  rotate: false
+  xy: 192, 3
+  size: 28, 57
+  orig: 28, 57
+  offset: 0, 0
+  index: -1
+R-Forearm
+  rotate: false
+  xy: 357, 29
+  size: 30, 41
+  orig: 30, 41
+  offset: 0, 0
+  index: -1
+R-Lowerleg
+  rotate: false
+  xy: 266, 9
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+R-Thigh
+  rotate: false
+  xy: 272, 42
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+R-Upperarm
+  rotate: false
+  xy: 94, 19
+  size: 49, 34
+  orig: 49, 34
+  offset: 0, 0
+  index: -1
+R-toushi
+  rotate: false
+  xy: 445, 48
+  size: 49, 103
+  orig: 49, 103
+  offset: 0, 0
+  index: -1
+RB-Hand
+  rotate: false
+  xy: 316, 40
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+RF-Hand
+  rotate: false
+  xy: 531, 8
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+RU-Armor
+  rotate: false
+  xy: 227, 42
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+SE-daoguang
+  rotate: false
+  xy: 90, 0
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 0, 42
+  size: 90, 154
+  orig: 90, 154
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 362, 155
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1

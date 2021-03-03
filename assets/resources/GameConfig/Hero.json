@@ -1,0 +1,80 @@
+{
+    "1000001": {
+        "Id": "1000001",
+        "Hp": 100,
+        "Mp": 100,
+        "Name": "曦曦的",
+        "attack": 10,
+        "defense": 10,
+        "speed": 10,
+        "path": "Spine/Character/erlangshen/erlangshen",
+        "attackGrow": 1.3,
+        "defenseGrow": 1.2,
+        "speedGrow": 1.2,
+        "battlePrefix": "000000",
+        "scale": 0.8,
+        "attackTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "injuredTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "skillTime":{
+            "actiondelay": 6.94
+        }
+    },
+    "1000002": {
+        "Id": "1000002",
+        "Hp": 100,
+        "Mp": 100,
+        "Name": "曦曦的大龟头",
+        "attack": 10,
+        "defense": 10,
+        "speed": 10,
+        "path": "Spine/Character/ganning/ganning",
+        "attackGrow": 1.3,
+        "defenseGrow": 1.2,
+        "speedGrow": 1.2,
+        "battlePrefix": "000000",
+        "scale": 1,
+        "attackTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "injuredTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "skillTime":{
+            "actiondelay": 6.94
+        }
+    },
+    "1000003": {
+        "Id": "1000003",
+        "Hp": 100,
+        "Mp": 100,
+        "Name": "曦曦的大龟头",
+        "attack": 10,
+        "defense": 10,
+        "speed": 10,
+        "path": "Spine/Character/caocao/caocao",
+        "attackGrow": 1.3,
+        "defenseGrow": 1.2,
+        "speedGrow": 1.2,
+        "battlePrefix": "000000",
+        "scale": 1,
+        "attackTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "injuredTime": {
+            "actiondelay": 0.84,
+            "delay": 0.47
+        },
+        "skillTime":{
+            "actiondelay": 6.94
+        }
+    }
+}

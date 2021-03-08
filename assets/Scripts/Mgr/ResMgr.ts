@@ -39,7 +39,6 @@ export class ResMgr {
                 this.configDict.set(data.type, res.json!);
                 index++;
                 if (index >= total) {
-                    // this.LoadComplete();
                     this.LoadSkill();
                 }
                 this.cacheAsset.set(path, res);

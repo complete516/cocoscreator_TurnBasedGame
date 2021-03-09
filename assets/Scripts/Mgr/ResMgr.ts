@@ -1,8 +1,8 @@
 import { Asset, JsonAsset, log, Prefab, resources } from "cc";
-import { BaseConfig, EnemyConfig, HeroConfig, SkillConfig } from "./Config/ConfigData";
+import { BaseConfig, EnemyConfig, HeroConfig, SkillConfig } from "../ResData/ConfigData";
 
-import { ConfigList } from "./Config/ConfigList";
-import { ConfigType } from "./Config/ConfigType";
+import { ConfigList } from "../ResData/ResConfig";
+import { ConfigType } from "../ResData/ConfigType";
 
 export class ResMgr {
     private static instance: ResMgr = null!;
@@ -10,7 +10,7 @@ export class ResMgr {
 
     public OnCompleteCallback: () => void = null!
     private cacheAsset: Map<string, Asset> = new Map<string, Asset>();
-    private  pfefabs: Map<string, Prefab> = new Map<string, Prefab>();
+    private pfefabs: Map<string, Prefab> = new Map<string, Prefab>();
     private totalNum: number = 0;
     private skills: string[] = []
 
@@ -68,7 +68,7 @@ export class ResMgr {
     }
 
 
-    private LoadPrefab(path: string, callback?: Function) {
+    public LoadPrefab(path: string, callback?: (res: Prefab) => void) {
         resources.load(path, Prefab, (err, res) => {
             if (err) {
                 log(err.message);
@@ -93,8 +93,9 @@ export class ResMgr {
         this.cacheAsset.forEach((val, path) => resources.release(path))
     }
 
-    public get Prefabs () {
+    public get Prefabs() {
         return this.pfefabs;
     }
+
 
 }

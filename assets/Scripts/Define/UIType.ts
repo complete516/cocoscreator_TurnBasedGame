@@ -4,9 +4,14 @@ export enum UIType {
     /**普通 */
     Normal,
     /**弹窗 */
-    Pop,
+    Popup,
     /**常驻*/
     ResidentType,
     /**跑马灯 */
     marquee,
+}
+
+/**游戏UI */
+export enum GameUI {
+    BagWindow,
 }

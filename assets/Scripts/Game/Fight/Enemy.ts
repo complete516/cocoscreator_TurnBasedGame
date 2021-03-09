@@ -1,6 +1,6 @@
 import { Button, log, resources, sp, tween, UITransform, v3, _decorator } from "cc";
-import { ActorData, BattleConfig, EnemyConfig } from "../../Mgr/Config/ConfigData";
-import { ConfigType } from "../../Mgr/Config/ConfigType";
+import { ActorData, BattleConfig, EnemyConfig } from "../../ResData/ConfigData";
+import { ConfigType } from "../../ResData/ConfigType";
 import { ResMgr } from "../../Mgr/ResMgr";
 import { Actor } from "./Actor";
 import { Property } from "./Property";

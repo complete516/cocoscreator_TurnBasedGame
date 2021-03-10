@@ -1,6 +1,6 @@
 import { CCLoader, Component, instantiate, JsonAsset, Label, log, Prefab, randomRangeInt, resources, TERRAIN_HEIGHT_BASE, v3, Vec3, _decorator } from "cc";
-import { BattleConfig, EnemyConfig, HeroConfig } from "../../Mgr/Config/ConfigData";
-import { ConfigType } from "../../Mgr/Config/ConfigType";
+import { BattleConfig, EnemyConfig, HeroConfig } from "../../ResData/ConfigData";
+import { ConfigType } from "../../ResData/ConfigType";
 import { ResMgr } from "../../Mgr/ResMgr";
 import { GameData } from "../GameData"
 import { Actor } from "./Actor";

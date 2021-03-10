@@ -1,13 +1,13 @@
-import { Button, _decorator } from "cc";
+import { Button, Component, _decorator } from "cc";
 import { UIMgr } from "../Mgr/UIMgr";
-import BaseWindow from "./Base/BaseWindow";
+
 
 const { ccclass, property } = _decorator;
 @ccclass('BagView')
 
-export default class BagView extends BaseWindow {
+export default class BagView extends Component {
     public Enter() {
-        super.Enter();
+       
     }
 
 

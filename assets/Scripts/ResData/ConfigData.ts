@@ -1,4 +1,4 @@
-import { Enemy } from "../../Game/Fight/Enemy";
+import { Enemy } from "../Game/Fight/Enemy";
 
 export interface BaseConfig {
 

@@ -1,8 +1,8 @@
 import { Animation, Color, color, instantiate, log, math, Prefab, randomRangeInt, resources, sp, Sprite, tween, UITransform, v3, _decorator } from "cc";
 import { Actor } from "./Actor";
 import { ResMgr } from "../../Mgr/ResMgr";
-import { ActorData, BattleConfig, EnemyConfig, HeroConfig, SkillConfig } from "../../Mgr/Config/ConfigData";
-import { ConfigType } from "../../Mgr/Config/ConfigType";
+import { ActorData, BattleConfig, EnemyConfig, HeroConfig, SkillConfig } from "../../ResData/ConfigData";
+import { ConfigType } from "../../ResData/ConfigType";
 import { Property } from "./Property";
 import BaseSkill from "../Skill/BaseSkill";
 

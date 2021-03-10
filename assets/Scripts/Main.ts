@@ -2,6 +2,7 @@
 import { _decorator, Component, Node } from 'cc';
 import { GameUI } from './Define/UIType';
 import { UIMgr } from './Mgr/UIMgr';
+import { UIManger } from './UIFrame/UIManger';
 import BagView from './View/BagView';
 const { ccclass, property } = _decorator;
 
@@ -9,8 +10,9 @@ const { ccclass, property } = _decorator;
 export class Main extends Component {
 
     start() {
-        UIMgr.Instance.UIRoot = this.node;
-        UIMgr.Instance.Open(GameUI.BagWindow);
+        // UIMgr.Instance.UIRoot = this.node;
+        // UIMgr.Instance.Open(GameUI.BagWindow);
+        UIManger.Instance.ShowUIForms("");
     }
 
 }

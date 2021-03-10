@@ -1,6 +1,6 @@
 import { Component, Label, log, ProgressBar, resources, sp, tween, UITransform, v3, Vec3, _decorator } from "cc";
-import { ActorData, BattleConfig } from "../../Mgr/Config/ConfigData";
-import { ConfigType } from "../../Mgr/Config/ConfigType";
+import { ActorData, BattleConfig } from "../../ResData/ConfigData";
+import { ConfigType } from "../../ResData/ConfigType";
 import { ResMgr } from "../../Mgr/ResMgr";
 import { Property } from "./Property";
 

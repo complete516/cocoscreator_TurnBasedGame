@@ -1,4 +1,5 @@
-import { GameUI } from "../Define/UIType"
+
+import { UIFormsDefine } from "../Define/UIFormsDefine"
 import { ConfigType } from "./ConfigType"
 
 export let ConfigList: { type: ConfigType, path: string }[] = [
@@ -9,8 +10,8 @@ export let ConfigList: { type: ConfigType, path: string }[] = [
 ]
 
 
-export let UIConfig:Map<GameUI,string> = new Map<GameUI,string>([
-    [GameUI.BagWindow,"Prefabs/UI/Window/BagView"],
+export let UIConfig: Map<string, string> = new Map<string, string>([
+    [UIFormsDefine.bag, "Prefabs/UI/Window/BagView"],
 ])
 
 

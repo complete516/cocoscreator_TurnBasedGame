@@ -1,20 +1,21 @@
+/**窗口位置类型 */
 export enum UIFormType {
+    None = 0,
     /**普通 */
     Normal,
-    /**固定*/
+    /**固定 非全屏弹窗*/
     Fixed,
     /**弹窗 */
     PopUp,
 }
 
-
-// export enum UIFormLucenyType {
-//     //完全透明，不能穿透
-//     Luncency,
-//     //半透明，不能穿透
-//     Translucence,
-//     //低透明度，不能穿透
-//     ImPenetrable,
-//     //可以穿透
-//     Pentrate,
-// }
+/**UI窗体的显示类型*/
+export enum UIFormShowMode {
+    None = 0,
+    /**普通 */
+    Normal,
+    /**反向切换 */
+    ReverseChange,
+    /**隐藏其他 */
+    HideOther,
+}

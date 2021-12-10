@@ -9,7 +9,6 @@ export class WindSkill extends BaseSkill {
     private debuff: number[] = [];
     private buff: number[] = [];
 
-
     //技能伤害
     public SkillHarm(source: Actor, target: Actor) {
         let harm = source.property.attack - target.property.defense;

@@ -6,12 +6,11 @@
     "_native": "",
     "scene": {
       "__id__": 1
-    },
-    "asyncLoadAssets": false
+    }
   },
   {
     "__type__": "cc.Scene",
-    "_name": "",
+    "_name": "Fight",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -313,7 +312,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 474.9795918367347,
+    "_orthoHeight": 600.8727272727273,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -401,7 +400,6 @@
     "__prefab": {
       "__id__": 12
     },
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 1080,
@@ -441,7 +439,8 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "e0cfd98f-43dd-4c89-bcd5-4eb3bfb82f62@f9941"
+      "__uuid__": "e0cfd98f-43dd-4c89-bcd5-4eb3bfb82f62@f9941",
+      "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
     "_fillType": 0,
@@ -546,7 +545,6 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 100,
@@ -569,10 +567,12 @@
     "_enabled": true,
     "__prefab": null,
     "enemyPfb": {
-      "__uuid__": "02c29325-c285-4314-b435-38df3f14bd04"
+      "__uuid__": "02c29325-c285-4314-b435-38df3f14bd04",
+      "__expectedType__": "cc.Prefab"
     },
     "heroPfb": {
-      "__uuid__": "7cc1cff1-4667-4d8a-94f1-f36d8e1440e4"
+      "__uuid__": "7cc1cff1-4667-4d8a-94f1-f36d8e1440e4",
+      "__expectedType__": "cc.Prefab"
     },
     "roundText": {
       "__id__": 19
@@ -679,7 +679,6 @@
     "__prefab": {
       "__id__": 22
     },
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 80,
@@ -797,7 +796,6 @@
     "__prefab": {
       "__id__": 27
     },
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 20,
@@ -829,7 +827,6 @@
     "__prefab": {
       "__id__": 30
     },
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 1080,
@@ -953,19 +950,22 @@
       "b": 76,
       "a": 255
     },
-    "_autoAdapt": true,
+    "_fixedArea": false,
     "_pcf": 0,
-    "_bias": 0.00001,
+    "_bias": 0.1,
+    "_normalBias": 0,
     "_near": 1,
     "_far": 30,
-    "_aspect": 1,
+    "_shadowDistance": 100,
+    "_invisibleOcclusionRange": 200,
     "_orthoSize": 5,
     "_maxReceived": 4,
     "_size": {
       "__type__": "cc.Vec2",
       "x": 512,
       "y": 512
-    }
+    },
+    "_saturation": 1
   },
   {
     "__type__": "cc.SkyboxInfo",

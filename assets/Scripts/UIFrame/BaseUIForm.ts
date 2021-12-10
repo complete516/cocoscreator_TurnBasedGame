@@ -1,5 +1,4 @@
 import { Button, Component, find, Overflow, systemEvent, _decorator } from "cc";
-import { EventSystem } from "../EventSystem";
 import { UIManger } from "./UIManger";
 import { UIFormShowMode, UIFormType } from "./UIType";
 

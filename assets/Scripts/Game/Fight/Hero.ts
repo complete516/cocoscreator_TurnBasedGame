@@ -24,7 +24,7 @@ export default class Hero extends Actor {
         this.confData = conf[this.Id];
         this.battlefieldId = `${this.confData.battlePrefix}${index}`
         let bConf = ResMgr.Instance.GetConfig<BattleConfig>(ConfigType.Battle)[this.battlefieldId];
-        this.ShowActor(this.confData.path, this.confData.scale!);
+        this.ShowActor(this.confData.path, this.confData.scale);
 
         this.property.attack = this.confData.attack!;
         this.property.defense = this.confData.defense!;
@@ -35,22 +35,6 @@ export default class Hero extends Actor {
     }
 
     public ReadyAttack(target: Actor) {
-        // let pos = v3(target.node.position);
-        // let w = target.sp.node.getComponent(UITransform)?.width!;
-        // pos.x += this.direction * w / 1.2 * target.sp.node.scale.x;
-        // this.Move(pos,()=>{
-        //     this.PhysicsAttack(target);
-        // });
-
-        // this.PlayAnimation("skill", false)
-        // resources.load("Prefabs/Skill/4000001", Prefab, (err, res) => {
-        //     let obj = instantiate(res);
-        //     obj.parent = target.node;
-        //     let ani = obj.getComponent(Animation);
-        //     obj.position = v3(10, 50, 1);
-        //     obj.setScale(v3(0.6, 1, 1))
-        //     ani?.play();
-        // });
 
         let rand = randomRangeInt(0, 100);
         if (rand <= 40) {

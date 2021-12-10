@@ -3,7 +3,6 @@ import { ActorData, BattleConfig, EnemyConfig } from "../../ResData/ConfigData";
 import { ConfigType } from "../../ResData/ConfigType";
 import { ResMgr } from "../../Mgr/ResMgr";
 import { Actor } from "./Actor";
-import { Property } from "./Property";
 
 
 const { ccclass, property } = _decorator;

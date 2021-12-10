@@ -14,7 +14,4 @@ export class Main extends Component {
         UIManger.Instance.SetRoot(this.node);
         UIManger.Instance.ShowUIForms(UIFormsDefine.bag);
     }
-
-}
-
-
+} 

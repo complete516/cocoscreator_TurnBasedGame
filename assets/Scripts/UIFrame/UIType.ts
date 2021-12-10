@@ -9,7 +9,7 @@ export enum UIFormType {
     PopUp,
 }
 
-/**UI窗体的显示类型*/
+/**UI窗口的显示类型*/
 export enum UIFormShowMode {
     None = 0,
     /**普通 */

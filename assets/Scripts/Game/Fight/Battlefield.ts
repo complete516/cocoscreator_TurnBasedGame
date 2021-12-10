@@ -1,10 +1,11 @@
-import { CCLoader, Component, instantiate, JsonAsset, Label, log, Prefab, randomRangeInt, resources, TERRAIN_HEIGHT_BASE, v3, Vec3, _decorator } from "cc";
+import { Component, instantiate, JsonAsset, Label, log, Prefab, randomRangeInt, resources, TERRAIN_HEIGHT_BASE, v3, Vec3, _decorator } from "cc";
 import { BattleConfig, EnemyConfig, HeroConfig } from "../../ResData/ConfigData";
 import { ConfigType } from "../../ResData/ConfigType";
 import { ResMgr } from "../../Mgr/ResMgr";
 import { GameData } from "../GameData"
 import { Actor } from "./Actor";
 import { Enemy } from "./Enemy";
+import { AnimType, FontContent } from "../../Define/GameDefine";
 
 /**战场 */
 const { ccclass, property } = _decorator;
@@ -13,8 +14,9 @@ const { ccclass, property } = _decorator;
 /**战场 */
 export class Battlefield extends Component {
 
-    heroList: Actor[] = [];
-    enemyList: Actor[] = [];
+    private heroList: Actor[] = [];
+    private enemyList: Actor[] = [];
+    /**回合数 */
     private roundNumber: number = 0;
 
     @property(Prefab)
@@ -140,7 +142,6 @@ export class Battlefield extends Component {
         this.attackOrderList.splice(0, 1);
     }
 
-
     private CheckGameResult() {
         let isDefeated = this.heroList.filter(a => a.IsDie()).length == this.heroList.length;
         let isVictory = this.enemyList.filter(a => a.IsDie()).length == this.enemyList.length;
@@ -155,33 +156,32 @@ export class Battlefield extends Component {
         }
         return false;
     }
-
-
+    /**胜利 */
     private Victory() {
         this.isAction = false;
         this.Celebrate(this.heroList);
-        this.resultText.string = "恭喜您战斗胜利"
-        log("胜利");
+        this.resultText.string = FontContent.FightVictory;
     }
 
+    /**失败 */
     private Defeated() {
         this.isAction = false;
         this.Celebrate(this.enemyList);
-        this.resultText.string = "战斗失败，再接再厉"
-        log("失败")
+        this.resultText.string = FontContent.FightDefeated;
     }
 
+    /**庆祝 */
     private Celebrate(actorList: Actor[]) {
         actorList.forEach((actor) => {
             if (!actor.IsDie()) {
-                actor.PlayAnimation("celebrate");
+                actor.PlayAnimation(AnimType.Celebrate);
             }
         })
     }
 
 
     private Exit() {
-
+        ResMgr.Instance.RemoveBattlefieldAsset();
     }
 
 }

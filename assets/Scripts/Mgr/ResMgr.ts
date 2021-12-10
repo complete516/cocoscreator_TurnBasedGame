@@ -79,9 +79,19 @@ export class ResMgr {
         })
     }
 
+    /**删除 */
+    public RemoveBattlefieldAsset() {
+
+    }
+
+    public LoadBattlefield(progressCallBack?: (progress: number) => void, completeCallback?: Function) {
+
+    }
+
     public LoadComplete() {
         this.OnCompleteCallback && this.OnCompleteCallback();
     }
+
 
     public GetConfig<T extends BaseConfig>(type: ConfigType): T {
         let data = this.configDict.get(type);

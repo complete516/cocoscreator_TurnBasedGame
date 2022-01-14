@@ -1,2 +1,3 @@
 # cocoscreator_TurnBasedGame
-cocosCreator3.0 回合制游戏Demo 
+cocosCreator3.4 回合制游戏Demo 
+

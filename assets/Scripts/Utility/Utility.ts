@@ -1,4 +1,4 @@
-import { randomRangeInt, utils, Node } from "cc";
+import { randomRangeInt, utils, Node, assert, assetManager, CCObject, Asset } from "cc";
 
 export default class Utility {
     /**金币转换 */
@@ -113,10 +113,28 @@ export default class Utility {
     }
 
     /**今天是否签到*/
-    public IsTodaySigIn(signInTime: number) {
+    public static IsTodaySigIn(signInTime: number) {
         if (signInTime == 0) {
             return false;
         }
         return !Utility.IsTomorrow(signInTime);
+    }
+
+    /**
+     * 
+     * @param calssName 类名  org/cocos2dx/javascript/AppActivity
+     * @param funName 函数名称  TestPrint
+     * @param param 参数jni  (Ljava/lang/String;)V
+     * @param argv 参数列表
+     */
+    public static CallAndroid(calssName: string, funName: string, param: string, argv: string[]) {
+        jsb.reflection.callStaticMethod(calssName, funName, param, argv);
+    }
+
+
+    public static LoadUrlTexture<T extends Asset>(url: string, type: typeof Asset & { prototype: T }, callback: (res: T) => void) {
+        assetManager.loadRemote(url, type, (err, res) => {
+            callback && callback(res as T);
+        });
     }
 }

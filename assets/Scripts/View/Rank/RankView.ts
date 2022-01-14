@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, Prefab, ScrollView, instantiate, v3, UITransform, Label, log, math, Size, Vec3, Camera, } from 'cc';
+import { _decorator, Component, Node, Prefab, ScrollView, instantiate, v3, UITransform, Label, log, math, Size, Vec3, Camera, Vec2, } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('RankView')
@@ -16,9 +16,9 @@ export class RankView extends Component {
     private itemTotalNum: number = 0;
     private realItemNum: number = 0;
     private itemArr: Node[] = [];
-    private data = [];
+   
     private visibleSize: Size = new Size(240, 250);
-    private currOffset: Vec3 = Vec3.ZERO;
+    private currOffset: Vec2 = Vec2.ZERO;
 
     private firstIndex: number = 0;
     private lastIndex: number = 0;

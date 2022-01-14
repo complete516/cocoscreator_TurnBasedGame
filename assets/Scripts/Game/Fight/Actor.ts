@@ -1,4 +1,4 @@
-import { Component, Label, log, ProgressBar, resources, sp, tween, UITransform, v3, Vec3, _decorator } from "cc";
+import { Component, Label, log, ProgressBar, resources, tween,sp, v3, Vec3, _decorator, CCObject } from "cc";
 import { ActorData, BattleConfig } from "../../ResData/ConfigData";
 import { ConfigType } from "../../ResData/ConfigType";
 import { ResMgr } from "../../Mgr/ResMgr";
@@ -27,8 +27,9 @@ export class Actor extends Component {
         this.sp = this.node.getChildByName("Spine")?.getComponent(sp.Skeleton)!;
         this.hpBar = this.node.getChildByName("Hp")?.getComponent(ProgressBar)!;
         this.property = new Property();
+        
 
-        this.sp.setCompleteListener((trackEntry) => {
+        this.sp.setCompleteListener((trackEntry:any) => {
             let name = trackEntry.animation ? trackEntry.animation.name : "";
             if (name == "attack") {
                 this.AttackToStand();

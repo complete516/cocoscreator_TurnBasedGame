@@ -29,6 +29,7 @@ export class GameEventMgr {
         let arr = this.eventList.get(evenType);
         for (let obj of arr) {
             if (obj.target == target) {
+                console.log("重复注册事件")
                 return
             }
         }
@@ -39,7 +40,7 @@ export class GameEventMgr {
 
     public EmitEvent(evenType: GameEventType, ...data: any[]) {
         if (!this.eventList.has(evenType)) {
-      
+            console.log("没有注册这个事件");
             return;
         }
 

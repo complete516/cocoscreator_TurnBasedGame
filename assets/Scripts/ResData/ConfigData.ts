@@ -10,7 +10,8 @@ interface actionTime {
     delay?: number
 }
 
-export interface ActorData {
+/**敌人配置 */
+export class HeroConfig {
     Id?: string;
     Hp?: number;
     Mp?: number;
@@ -31,17 +32,6 @@ export interface ActorData {
     attackTime?: actionTime;
     injuredTime?: actionTime;
     skillTime?: actionTime;
-}
-
-/**敌人配置 */
-export class HeroConfig {
-    json: Map<string, ActorData>
-    // constructor(json: Object) {
-    //     for (let k of Object.keys(json)) {
-    //         let info = <ActorData>json[k];
-    //         this.json.set(k, info);
-    //     }
-    // }
 }
 
 

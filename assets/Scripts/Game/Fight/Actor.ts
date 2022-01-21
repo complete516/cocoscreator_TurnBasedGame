@@ -1,7 +1,7 @@
 import { Component, Label, log, ProgressBar, resources, tween,sp, v3, Vec3, _decorator, CCObject } from "cc";
-import { ActorData, BattleConfig } from "../../ResData/ConfigData";
+// import { ActorData, BattleConfig } from "../../ResData/ConfigData";
 import { ConfigType } from "../../ResData/ConfigType";
-import { ResMgr } from "../../Mgr/ResMgr";
+// import { ResMgr } from "../../Mgr/ResMgr";
 import { Property } from "./Property";
 
 
@@ -19,7 +19,7 @@ export class Actor extends Component {
     public property: Property = null!;
     public direction: number = 1;
 
-    public confData: ActorData | null = null;
+    // public confData: ActorData | null = null;
     
     public actionTime: number = 0;
 
@@ -45,13 +45,13 @@ export class Actor extends Component {
 
     public ShowActor(path: string, scale: number) {
         this.LoadSpine(path);
-        let bConf = ResMgr.Instance.GetConfig<BattleConfig>(ConfigType.Battle)[this.battlefieldId];
-        this.direction = bConf.direction;
-        let dir = v3(this.sp.node.scale);
-        dir.x *= bConf.direction;
-        this.sp.node.scale = v3(dir).multiplyScalar(scale);
-        this.node.position = v3(bConf.x, bConf.y);
-        this.originPos = v3(this.node.position);
+        // let bConf = ResMgr.Instance.GetConfig<BattleConfig>(ConfigType.Battle)[this.battlefieldId];
+        // this.direction = bConf.direction;
+        // let dir = v3(this.sp.node.scale);
+        // dir.x *= bConf.direction;
+        // this.sp.node.scale = v3(dir).multiplyScalar(scale);
+        // this.node.position = v3(bConf.x, bConf.y);
+        // this.originPos = v3(this.node.position);
     }
 
     public ReadyAttack(target: Actor) {
@@ -70,11 +70,11 @@ export class Actor extends Component {
 
     public Injured(injuredHp: number) {
         this.injuerdHp += injuredHp;
-        let injuredTime = this.confData?.injuredTime;
-        tween(this.node).delay(injuredTime?.delay!).call(() => {
-            this.PlayAnimation("injured", false);
-            this.UpdateHP();
-        }).start();
+        let injuredTime = 0;//this.confData?.injuredTime;
+        // tween(this.node).delay(injuredTime?.delay!).call(() => {
+        //     this.PlayAnimation("injured", false);
+        //     this.UpdateHP();
+        // }).start();
     }
 
     private UpdateHP() {

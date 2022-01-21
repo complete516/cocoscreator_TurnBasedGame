@@ -4,9 +4,9 @@
  * 参考 https://www.shuzhiduo.com/A/B0zqnj6KJv/
  */
 
-import { Component, instantiate, log, Prefab, resources, Node, _decorator, v3, Vec3 } from "cc";
-import { ResMgr } from "../Mgr/ResMgr";
-import { UIConfig } from "../ResData/ResConfig";
+import { Component, instantiate, log, Prefab, resources, Node, _decorator, v3, Vec3, CCObject } from "cc";
+// import { ResMgr } from "../Mgr/ResMgr";
+import ResMgr from "../ResLoad/ResMgr";
 import BaseUIForm from "./BaseUIForm";
 import { UIFormShowMode, UIFormType } from "./UIType";
 
@@ -41,17 +41,19 @@ export class UIManger extends Component {
     private loadingUIForms: Map<string, boolean> = new Map<string, boolean>();
 
     public static get Instance(): UIManger {
-        if (UIManger.instance == null) {
-            UIManger.instance = new UIManger();
-        }
         return UIManger.instance;
     }
 
-    public SetRoot(root: Node) {
-        this.uiRoot = root;
-        this.normalFormsParent = root.getChildByName("normalForms");
-        this.fixedFormsParent = root.getChildByName("fixedForms");
-        this.popUpFormsParent = root.getChildByName("popUpForms");
+    onLoad() {
+        UIManger.instance = this;
+        this.Init();
+    }
+
+    public Init() {
+        this.uiRoot = this.node;
+        this.normalFormsParent = this.uiRoot.getChildByName("normalForms");
+        this.fixedFormsParent = this.uiRoot.getChildByName("fixedForms");
+        this.popUpFormsParent = this.uiRoot.getChildByName("popUpForms");
     }
 
     /**显示窗口
@@ -94,8 +96,7 @@ export class UIManger extends Component {
             return;
         }
 
-        let path = UIConfig.get(uiFormName)!;
-        ResMgr.Instance.LoadPrefab(path, (res) => {
+        ResMgr.Instance.LoadAsset(uiFormName, Prefab, (res) => {
             let node = instantiate(res);
             let uiForm = node.getComponent(BaseUIForm);
             if (uiForm != null) {
@@ -119,8 +120,8 @@ export class UIManger extends Component {
                 this.allUIForms.set(uiFormName, uiForm);
                 this.FormClassify(uiFormName);
             }
+            this.loadingUIForms.set(uiFormName, true);
         });
-        this.loadingUIForms.set(uiFormName, true);
     }
 
     /**窗口分类 */

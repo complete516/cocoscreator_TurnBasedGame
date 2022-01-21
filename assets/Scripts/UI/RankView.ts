@@ -47,7 +47,7 @@ export class RankView extends Component {
         let totalH = this.itemTotalNum * this.itemH;
         let content = this.rankList?.content!;
         content.getComponent(UITransform)?.setContentSize(this.visibleSize.width, totalH);
-        this.prevOffset = v3(this.rankList?.getScrollOffset()!);
+        // this.prevOffset = v3(this.rankList?.getScrollOffset()!);
         this.initObj();
     }
 

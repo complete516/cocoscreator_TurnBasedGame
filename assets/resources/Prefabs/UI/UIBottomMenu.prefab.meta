@@ -2,12 +2,12 @@
   "ver": "1.1.35",
   "importer": "prefab",
   "imported": true,
-  "uuid": "da3c5a52-dea1-4731-9df4-42936f0dad00",
+  "uuid": "c6eef97f-3d2c-4dd8-b817-689edcd0e971",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "BagView"
+    "syncNodeName": "UIBottomMenu"
   }
 }

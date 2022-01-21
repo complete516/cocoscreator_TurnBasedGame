@@ -1,11 +1,12 @@
 import { Component, instantiate, JsonAsset, Label, log, Prefab, randomRangeInt, resources, TERRAIN_HEIGHT_BASE, v3, Vec3, _decorator } from "cc";
-import { BattleConfig, EnemyConfig, HeroConfig } from "../../ResData/ConfigData";
+// import { BattleConfig, EnemyConfig, HeroConfig } from "../../ResData/ConfigData";
 import { ConfigType } from "../../ResData/ConfigType";
-import { ResMgr } from "../../Mgr/ResMgr";
+
 import { GameData } from "../GameData"
 import { Actor } from "./Actor";
 import { Enemy } from "./Enemy";
 import { AnimType, FontContent } from "../../Define/GameDefine";
+import ResMgr from "../../ResLoad/ResMgr";
 
 /**战场 */
 const { ccclass, property } = _decorator;
@@ -44,10 +45,10 @@ export class Battlefield extends Component {
     }
 
     public Enter() {
-        ResMgr.Instance.Skills = ["4000001", "4000002"];
-        ResMgr.Instance.LoadConfig();
-        GameData.Instance.Corps;
-        ResMgr.Instance.OnCompleteCallback = this.OnComplete.bind(this);
+        // ResMgr.Instance.Skills = ["4000001", "4000002"];
+        // ResMgr.Instance.LoadConfig();
+        // GameData.Instance.Corps;
+        // ResMgr.Instance.OnCompleteCallback = this.OnComplete.bind(this);
     }
 
 
@@ -181,7 +182,7 @@ export class Battlefield extends Component {
 
 
     private Exit() {
-        ResMgr.Instance.RemoveBattlefieldAsset();
+        // ResMgr.Instance.RemoveBattlefieldAsset();
     }
 
 }

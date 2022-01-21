@@ -1,10 +1,12 @@
-import { Asset, assetManager, AssetManager, AudioClip, Font, log, Prefab, resources, SpriteAtlas, SpriteFrame, warn } from "cc";
-import { AssetType, ResData, ResMap } from "./ResConfig";
+import { Asset, assetManager, AssetManager, AudioClip, Font, JsonAsset, log, Prefab, resources, SpriteAtlas, SpriteFrame, warn } from "cc";
+import { ResConfig } from "../Config/ResConf";
+import { AssetType, ResData, ResMap } from "./ResMap";
 
 /**资源加载器 */
 export default class ResMgr {
     private resMap: Map<string, Asset> = new Map<string, Asset>();
     private bundleMap: Map<string, AssetManager.Bundle> = new Map<string, AssetManager.Bundle>();
+    private confMap: Map<string, Object> = new Map<string, Object>();
     /**总共需要加载的资源数*/
     private totalResNum: number = 0;
     /**加载完成资源数*/
@@ -28,6 +30,7 @@ export default class ResMgr {
      * @param completeCB 加载完成回调
      */
     public LoadAllRes(progressCB?: (progress: number) => void, completeCB?: () => void) {
+        ResMap.AddRes(ResConfig);
         let resList = ResMap.FirstResList;
         this.totalResNum = resList.length;
         for (let i = 0; i < resList.length; i++) {
@@ -55,8 +58,8 @@ export default class ResMgr {
     }
 
     /**加载资源 */
-    private LoadRes(resName: string, callback?: Function) {
-        let info = ResMap.ResConfigMap.get(resName);
+    private LoadRes(index: number, callback?: Function) {
+        let info = ResMap.GetResConfig(index);
         let bundleName = info.bundleName;
         if (bundleName == "") {
             this.LoadResourcesRes(info, (res: Asset) => {
@@ -74,7 +77,7 @@ export default class ResMgr {
                         return;
                     }
                     this.bundleMap.set(bundleName, bundle);
-                    this.LoadRes(resName, callback);
+                    this.LoadRes(index, callback);
                 });
             }
         }
@@ -82,8 +85,8 @@ export default class ResMgr {
 
     /**加载bundle资源*/
     private LoadBundleRes(info: ResData, callback?: Function) {
-        let fullPath = info.path + "/" + info.resName;
-        this.bundleMap.get(info.bundleName).load(fullPath, this.GetResType(info.type), (err, res) => {
+
+        this.bundleMap.get(info.bundleName).load(info.fullPath, this.GetResType(info.type), (err, res) => {
             if (err) {
                 warn(err.message);
                 return;
@@ -113,7 +116,7 @@ export default class ResMgr {
      */
     public GetRes<T extends Asset>(resName: string, callback?: (res: T) => void): { isLoad: boolean, res: T } {
         if (!this.resMap.has(resName)) {
-            this.LoadRes(resName, (res: Asset) => {
+            this.LoadRes(ResMap.GetResIndex(resName), (res: Asset) => {
                 if (callback) callback(res as T);
             })
             return { isLoad: false, res: null };
@@ -123,18 +126,25 @@ export default class ResMgr {
         }
     }
 
-    /**测试方法 */
     /**直接加载资源 */
     public LoadAsset<T extends Asset>(resName: string, rt: typeof Asset & { prototype: T }, c: (res: T) => void) {
-        resources.load(resName, rt, (err, T) => { })
+        let info = ResMap.GetResConfig(resName);
+        if (info.bundleName == "") {
+            this.LoadResourcesRes(info, (res: T) => {
+                c && c(res as T);
+            });
+        } else {
+            this.LoadBundleRes(info, (res: T) => {
+                c && c(res as T);
+            })
+        }
     }
-
 
     /**删除资源 */
     public Release(resName: string) {
         if (this.resMap.has(resName)) {
             this.resMap.delete(resName);
-            let info = ResMap.ResConfigMap.get(resName);
+            let info = ResMap.GetResConfig(resName);
             if (info.resName == resName) {
                 if (info.bundleName == "") {
                     resources.release(info.fullPath);
@@ -145,8 +155,23 @@ export default class ResMgr {
         }
     }
 
+
+    /**释放Bundle*/
+    public ReleaseBundle(bundleName: string) {
+        if (this.bundleMap.get(bundleName)) {
+            this.bundleMap.get(bundleName).releaseAll();
+        }
+    }
+
+    /**获取配置*/
+    public GetConfig<T extends Object>(constructor: { prototype: T }) {
+        let json = (this.resMap.get(constructor['name']) as JsonAsset).json;
+        return <{ [key: string]: T }>json;
+    }
+
     /**获取资源类型 */
     private GetResType(resType: number) {
+
         if (resType == AssetType.Prefab) {
             return Prefab;
         } else if (resType == AssetType.Audio) {
@@ -157,6 +182,8 @@ export default class ResMgr {
             return SpriteFrame
         } else if (resType == AssetType.SpriteAtlas) {
             return SpriteAtlas;
+        } else if (resType == AssetType.Json) {
+            return JsonAsset;
         }
         return Prefab;
     }

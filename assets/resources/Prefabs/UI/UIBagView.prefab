@@ -12,8 +12,9 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "BagView",
+    "_name": "UIBagView",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": null,
     "_children": [
       {
@@ -125,7 +126,6 @@
     "__prefab": {
       "__id__": 4
     },
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 600,
@@ -165,7 +165,8 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "c7187202-1969-43f0-8da2-0dc974717043@f9941"
+      "__uuid__": "c7187202-1969-43f0-8da2-0dc974717043@f9941",
+      "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
     "_fillType": 0,
@@ -258,7 +259,6 @@
     "__prefab": {
       "__id__": 10
     },
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 60,
@@ -298,7 +298,8 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "fc19874b-2efb-46fb-806a-65ea4d5779b0@f9941"
+      "__uuid__": "fc19874b-2efb-46fb-806a-65ea4d5779b0@f9941",
+      "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
     "_fillType": 0,
@@ -362,16 +363,20 @@
       "a": 255
     },
     "_normalSprite": {
-      "__uuid__": "fc19874b-2efb-46fb-806a-65ea4d5779b0@f9941"
+      "__uuid__": "fc19874b-2efb-46fb-806a-65ea4d5779b0@f9941",
+      "__expectedType__": "cc.SpriteFrame"
     },
     "_hoverSprite": {
-      "__uuid__": "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941"
+      "__uuid__": "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+      "__expectedType__": "cc.SpriteFrame"
     },
     "_pressedSprite": {
-      "__uuid__": "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941"
+      "__uuid__": "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+      "__expectedType__": "cc.SpriteFrame"
     },
     "_disabledSprite": {
-      "__uuid__": "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      "__uuid__": "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+      "__expectedType__": "cc.SpriteFrame"
     },
     "_duration": 0.1,
     "_zoomScale": 1.2,
@@ -453,7 +458,6 @@
     "__prefab": {
       "__id__": 18
     },
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 40,
@@ -535,7 +539,6 @@
     "__prefab": {
       "__id__": 23
     },
-    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 180,
@@ -563,7 +566,7 @@
     "__prefab": {
       "__id__": 25
     },
-    "_id": ""
+    "_id": "e4QkFHuNRBmrEuQnsM53gp"
   },
   {
     "__type__": "cc.CompPrefabInfo",

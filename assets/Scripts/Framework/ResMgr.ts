@@ -1,6 +1,7 @@
-import { Asset, assetManager, AssetManager, AudioClip, Font, JsonAsset, log, Prefab, resources, SpriteAtlas, SpriteFrame, warn } from "cc";
+import { Asset, assetManager, AssetManager, AudioClip, Font, JsonAsset, log, Prefab, resources, sp, SpriteAtlas, SpriteFrame, TextAsset, warn, } from "cc";
 import { ResConfig } from "../Config/ResConf";
 import { AssetType, ResData, ResMap } from "./ResMap";
+
 
 /**资源加载器 */
 export default class ResMgr {
@@ -25,7 +26,7 @@ export default class ResMgr {
     }
 
     /**
-     * 加载资源
+     * 加载资源 主要加载的资源是type为ResLoadType.First的资源，其他资源不加载
      * @param progressCB 进度回调 0-1
      * @param completeCB 加载完成回调
      */
@@ -140,6 +141,49 @@ export default class ResMgr {
         }
     }
 
+    /**
+     * 根据路径加载资源
+     * @param fullPath  完整路径 path+resName;
+     * @param t 类型
+     * @param bundleName bundle名字 没有填“” 
+     * @param c 回调函数
+     */
+    public LoadAssetToPath<T extends Asset>(fullPath: string, t: typeof Asset & { prototype: T }, bundleName: string = "", c?: (res: T) => void) {
+        if (this.resMap.has(fullPath)) {
+            c && c(this.resMap.get(fullPath) as T);
+            return;
+        }
+
+
+        if (bundleName == "") {
+            resources.load(fullPath, t, (err, res: T) => {
+                if (err) {
+                    log(err.message);
+                    return;
+                }
+                this.resMap.set(fullPath, res);
+                c && c(res as T);
+            })
+        } else {
+
+            if (this.bundleMap.has(bundleName)) {
+
+            }
+            assetManager.loadBundle(bundleName, (err, bundle) => {
+                this.bundleMap.set(bundleName, bundle);
+                bundle.load(fullPath, t, (err, res: T) => {
+                    if (err) {
+                        log(err.message);
+                        return;
+                    }
+                    this.resMap.set(fullPath, res);
+                    c && c(res as T);
+                })
+            })
+        }
+    }
+
+
     /**删除资源 */
     public Release(resName: string) {
         if (this.resMap.has(resName)) {
@@ -154,7 +198,6 @@ export default class ResMgr {
             }
         }
     }
-
 
     /**释放Bundle*/
     public ReleaseBundle(bundleName: string) {
@@ -171,7 +214,6 @@ export default class ResMgr {
 
     /**获取资源类型 */
     private GetResType(resType: number) {
-
         if (resType == AssetType.Prefab) {
             return Prefab;
         } else if (resType == AssetType.Audio) {
@@ -184,6 +226,10 @@ export default class ResMgr {
             return SpriteAtlas;
         } else if (resType == AssetType.Json) {
             return JsonAsset;
+        } else if (resType == AssetType.Text) {
+            return TextAsset;
+        } else if (resType == AssetType.Spine) {
+            return sp.SkeletonData;
         }
         return Prefab;
     }

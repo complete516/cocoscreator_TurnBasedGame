@@ -6,7 +6,7 @@
 
 import { Component, instantiate, log, Prefab, resources, Node, _decorator, v3, Vec3, CCObject } from "cc";
 // import { ResMgr } from "../Mgr/ResMgr";
-import ResMgr from "../ResLoad/ResMgr";
+import ResMgr from "./ResMgr";
 import BaseUIForm from "./BaseUIForm";
 import { UIFormShowMode, UIFormType } from "./UIType";
 

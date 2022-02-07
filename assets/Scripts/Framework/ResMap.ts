@@ -16,6 +16,10 @@ export enum AssetType {
     SpriteAtlas,
     /**json*/
     Json,
+    /**文本 */
+    Text,
+    /**顾客动画 */
+    Spine,
 }
 
 /**资源加载类型 */
@@ -96,7 +100,7 @@ export class ResMap {
 
     }
 
-    public static GetResIndex(resName:string){
+    public static GetResIndex(resName: string) {
         return this.resNameToKeyObj[resName]
     }
 

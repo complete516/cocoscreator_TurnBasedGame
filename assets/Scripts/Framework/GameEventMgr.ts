@@ -1,4 +1,3 @@
-import { GameEventType } from "./Define/GameEventType";
 
 class EventData {
     constructor(target: object, callback: Function) {
@@ -10,8 +9,9 @@ class EventData {
     callback: Function = null;
 }
 
+/**游戏事件 */
 export class GameEventMgr {
-    private eventList: Map<GameEventType, EventData[]> = new Map<GameEventType, EventData[]>();
+    private eventList: Map<string, EventData[]> = new Map<string, EventData[]>();
     private static instance: GameEventMgr = null;
 
     public static get Instance() {
@@ -21,7 +21,13 @@ export class GameEventMgr {
         return GameEventMgr.instance;
     }
 
-    public AddEvent(evenType: GameEventType, callBack: Function, target: object) {
+    /**
+     * 添加事件
+     * @param evenType 事件类型
+     * @param callBack 事件回调
+     * @param target target
+     */
+    public AddEvent(evenType: string, callBack: Function, target: object) {
         if (!this.eventList.has(evenType)) {
             this.eventList.set(evenType, []);
         }
@@ -37,8 +43,12 @@ export class GameEventMgr {
         arr.push(new EventData(target, callBack));
     }
 
-
-    public EmitEvent(evenType: GameEventType, ...data: any[]) {
+    /**
+     * 发送事件
+     * @param evenType 事件类型 
+     * @param data 事件数据
+     */
+    public EmitEvent(evenType: string, ...data: any[]) {
         if (!this.eventList.has(evenType)) {
             console.log("没有注册这个事件");
             return;
@@ -50,7 +60,12 @@ export class GameEventMgr {
         }
     }
 
-    public RemoveEvent(evenType: GameEventType, target: object) {
+    /**
+     * 删除事件
+     * @param evenType 事件类型
+     * @param target 目标
+     */
+    public RemoveEvent(evenType: string, target: object) {
         if (!this.eventList.has(evenType)) {
             return;
         }

@@ -46,9 +46,6 @@ export class DrawLine extends Component {
         this.node.on(Node.EventType.TOUCH_MOVE, (event: TouchEvent) => {
             // log(event);
         }, this);
-
-   
-
     }
 }
 

@@ -1,7 +1,7 @@
 import { Button, Component, log, _decorator } from "cc";
-import BaseUIForm from "../UIFrame/BaseUIForm";
-import { UIManger } from "../UIFrame/UIManger";
-import { UIFormShowMode, UIFormType } from "../UIFrame/UIType";
+import BaseUIForm from "../Framework/BaseUIForm";
+import { UIManger } from "../Framework/UIManger";
+import { UIFormShowMode, UIFormType } from "../Framework/UIType";
 
 
 

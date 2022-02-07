@@ -1,12 +1,11 @@
 import { Component, instantiate, JsonAsset, Label, log, Prefab, randomRangeInt, resources, TERRAIN_HEIGHT_BASE, v3, Vec3, _decorator } from "cc";
 // import { BattleConfig, EnemyConfig, HeroConfig } from "../../ResData/ConfigData";
-import { ConfigType } from "../../ResData/ConfigType";
 
 import { GameData } from "../GameData"
 import { Actor } from "./Actor";
 import { Enemy } from "./Enemy";
 import { AnimType, FontContent } from "../../Define/GameDefine";
-import ResMgr from "../../ResLoad/ResMgr";
+import ResMgr from "../../Framework/ResMgr";
 
 /**战场 */
 const { ccclass, property } = _decorator;

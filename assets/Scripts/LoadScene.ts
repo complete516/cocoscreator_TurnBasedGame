@@ -1,6 +1,6 @@
 
 import { _decorator, Component, Node, CCObject, ProgressBarComponent, Label, find, LabelComponent, log, director } from 'cc';
-import ResMgr from './ResLoad/ResMgr';
+import ResMgr from './Framework/ResMgr';
 
 const { ccclass, property } = _decorator;
 
@@ -18,7 +18,9 @@ const { ccclass, property } = _decorator;
 
 @ccclass('LoadScene')
 export class LoadScene extends Component {
+    /**进度条 */
     private progressBar: ProgressBarComponent = null;
+    /**进度label */
     private progressText: Label = null;
     /**当前进度 */
     private currProgress: number = 0;

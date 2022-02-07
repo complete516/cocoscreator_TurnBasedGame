@@ -1,16 +1,15 @@
 
 import { _decorator, Component, Node, SpriteFrame, log } from 'cc';
 import { ResName } from './Config/ResConf';
-import { UIFormsDefine } from './Define/UIFormsDefine';
-import { HeroConfig } from './ResData/ConfigData';
-import ResMgr from './ResLoad/ResMgr';
+import { HeroConfig } from './Data/ConfigData';
+import ResMgr from './Framework/ResMgr';
 
 
-import { UIManger } from './UIFrame/UIManger';
+import { UIManger } from './Framework/UIManger';
 const { ccclass, property } = _decorator;
 
-@ccclass('Main')
-export class Main extends Component {
+@ccclass('MainScene')
+export class MainScene extends Component {
 
     start() {
         UIManger.Instance.ShowUIForms(ResName.UIBag);
